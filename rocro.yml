@@ -1,5 +1,9 @@
 inspecode:
 
+    experimental:
+        runtime:
+            java: 11.0
+
     cljfmt:
         thresholds: { num-issues: 1 }
 
