@@ -16,6 +16,9 @@ inspecode:
     eastwood:
         thresholds: { num-issues: 999 }
 
+    fossology:
+        thresholds: { num-issues: 999 }
+
     grep:
         thresholds: { num-issues: 0 }
 
@@ -27,6 +30,7 @@ inspecode:
     ##   with profile(s): 'base,system,user,provided,dev,inspecode.jvm'
     ##--------------------------------------------------
     kibit:
+        machine: { cpu: 1.5 }
         auto-fix: true
         thresholds: { num-issues: 999 }
 
